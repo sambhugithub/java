@@ -1,0 +1,18 @@
+class Dummy
+{
+   private final int x;
+  {
+    x=10;
+	System.out.println("value of x:"+x);
+  {
+}
+ class Final
+{
+   public static void main(String [] args)
+   {
+     Dummy obj=new Dummy();
+     System.out.println("value of x:"+obj.x);
+     Dummy obj1=new Dummy();
+     System.out.println("value of x:"+obj1.x);	 
+   }
+}   
